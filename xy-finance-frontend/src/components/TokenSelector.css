@@ -1,0 +1,161 @@
+/* Gradient Background and overall styling */
+body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #f5f5f5;
+}
+
+/* Container styling */
+.container {
+  background: rgba(25, 25, 50, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  width: 420px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #00d4ff;
+}
+
+/* Balance container styling */
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+/* Max button styling */
+.max-button {
+  background: none;
+  border: none;
+  color: #00d4ff;
+  cursor: pointer;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.max-button:hover {
+  color: #00a1cc;
+}
+
+/* Token input container styling */
+.token-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2a40;
+  color: #f5f5f5;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.input:focus {
+  background-color: #33334d;
+  outline: none;
+}
+
+/* Swap icon container styling */
+.swap-icon-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Swap icon styling */
+.swap-icon {
+  font-size: 36px;
+  color: #00d4ff;
+}
+
+/* Exchange information styling */
+.exchange-info {
+  margin: 20px 0;
+  font-size: 1em;
+}
+
+/* Connect button styling */
+.connect-button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #00d4ff, #0077b6);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background 0.3s;
+  margin-bottom: 20px;
+}
+
+.connect-button:hover {
+  background: linear-gradient(135deg, #00a1cc, #005f8b);
+}
+
+/* React Select custom styles */
+.react-select__control {
+  background-color: #2a2a40 !important;
+  border: none !important;
+  color: white !important;
+  margin-bottom: 12px;
+  border-radius: 8px !important;
+}
+
+.react-select__single-value {
+  color: white !important;
+}
+
+.react-select__menu {
+  background-color: #2a2a40 !important;
+  border-radius: 8px !important;
+}
+
+.react-select__option {
+  background-color: #2a2a40 !important;
+  color: white !important;
+}
+
+.react-select__option--is-focused {
+  background-color: #33334d !important;
+}
+
+/* Main values container styling */
+.main-values {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #2a2a40;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+/* Token option styling */
+.token-option {
+  display: flex;
+  align-items: center;
+}
+
+.token-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
